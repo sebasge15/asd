@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>..:: HTML - 2 ::..</title>
+    <meta charset="UTF-8">
+    </meta>
+    <meta keywords="progra, web">
+    </meta>
+
+</head>
+
+<body>
+    <p>
+        Comentarios:
+        <textarea cols="40" , rows="5">Escribe aquí tus comentarios</textarea>
+
+    </p>
+
+    <p>
+        <label>Correo:<!--Forma implicita-->
+            <input type="text" name="correo"
+                placeholder="Ingresa tu correo" /><!--Placeholder sirve para poner un texto por defecto en la caja pero que cuando escribes se borra, es decir no tienes que borrar nada para poder escribir-->
+        </label>
+        <label for="nombre">Nombre</label><!--Forma explicita-->
+        <input type="text" name="nombre" />
+    </p>
+    <p>
+        Areas de la carrera
+        <input type="text" list="areas" name="areacarrera" />
+        <datalist
+            id="areas"><!--Sirve para mostrar en lista y que se puedan sugerir valores para este campo desde el front-->
+            <option value="Tecnologias de la Informacion"></option>
+            <option value="Ingeneria de Software"></option>
+            <option value="Video Juegos"></option>
+            <option value="Sistemas de Informacions"></option>
+        </datalist>
+    </p>
+</body>
+
+
+
+
+
+
+
+</html>
